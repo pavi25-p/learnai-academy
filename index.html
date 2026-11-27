@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn AI and develop professional skills with LearnAI Academy.">
+
+    <title>LearnAI Academy | Learn. Build. Grow.</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">LearnAI Academy</h2>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <a href="#register" class="btn" id="nav-register">
+                Register Now
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Build Your Future with AI</h1>
+
+        <p>
+            Master Artificial Intelligence, Machine Learning,
+            and Generative AI through practical training.
+        </p>
+
+        <a href="#courses" class="btn" id="explore-courses">
+            Explore Courses
+        </a>
+
+        <a href="#register" class="btn" id="hero-register">
+            Get Started
+        </a>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2>Our Popular Courses</h2>
+
+        <div class="course-container">
+
+            <article class="course-card">
+                <h3>Artificial Intelligence</h3>
+                <p>Learn the foundations of AI.</p>
+                <p>Duration: 6 Weeks</p>
+                <a href="#register" class="enroll-btn"
+                   data-course="Artificial Intelligence">
+                    Enroll Now
+                </a>
+            </article>
+
+            <article class="course-card">
+                <h3>Generative AI</h3>
+                <p>Master modern generative AI tools.</p>
+                <p>Duration: 4 Weeks</p>
+                <a href="#register" class="enroll-btn"
+                   data-course="Generative AI">
+                    Enroll Now
+                </a>
+            </article>
+
+            <article class="course-card">
+                <h3>Prompt Engineering</h3>
+                <p>Build effective prompts for AI applications.</p>
+                <p>Duration: 3 Weeks</p>
+                <a href="#register" class="enroll-btn"
+                   data-course="Prompt Engineering">
+                    Enroll Now
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About LearnAI Academy</h2>
+        <p>
+            We provide practical AI-driven training
+            for students and working professionals.
+        </p>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register">
+        <h2>Register for a Course</h2>
+
+        <p>Practice website — please use fictional test details.</p>
+
+        <form id="registration-form">
+
+            <label for="student-name">Full Name</label>
+            <input type="text" id="student-name"
+                   placeholder="Enter test name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email"
+                   placeholder="Enter test email" required>
+
+            <label for="course-select">Select Course</label>
+            <select id="course-select" required>
+                <option value="">Select a Course</option>
+                <option>Artificial Intelligence</option>
+                <option>Generative AI</option>
+                <option>Prompt Engineering</option>
+            </select>
+
+            <button type="submit" id="submit-registration">
+                Submit Registration
+            </button>
+
+        </form>
+        <p id="registration-message" role="status"></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@example.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>2026 LearnAI Academy | Demo Learning Project</p>
+    </footer>
+
+</body>
+</html>
